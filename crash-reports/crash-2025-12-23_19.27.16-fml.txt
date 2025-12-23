@@ -1,0 +1,202 @@
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [oculus]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// There are four lights!
+
+Time: 2025-12-23 19:27:16
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.4.13-universal.jar%23205!/:?] {re:mixin,re:classloading,pl:mixin:APP:embeddium.mixins.json:core.CrashReportExtenderMixin,pl:mixin:A}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:135) ~[forge-1.20.1-47.4.13-universal.jar%23205!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$4(Minecraft.java:571) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.m_137521_(Util.java:421) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,re:classloading,pl:mixin:APP:kubejs-common.mixins.json:UtilMixin,pl:mixin:A}
+	at net.minecraft.client.Minecraft.lambda$new$5(Minecraft.java:564) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ForgeLoadingOverlay.m_88315_(ForgeLoadingOverlay.java:146) ~[forge-1.20.1-47.4.13-universal.jar%23205!/:?] {re:classloading}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:954) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23200!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[CCB.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.13.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.13.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.13.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:112) ~[?:?] {}
+	at oolloo.jlw.Wrapper.main(Wrapper.java:105) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+-- MOD vintageimprovements --
+Details:
+	Caused by 0: java.lang.NoClassDefFoundError: com/simibubi/create/content/kinetics/BlockStressDefaults
+		at com.negodya1.vintageimprovements.VintageBlocks.<clinit>(VintageBlocks.java:55) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+		at com.negodya1.vintageimprovements.VintageImprovements.onCtor(VintageImprovements.java:623) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+		at com.negodya1.vintageimprovements.VintageImprovements.<init>(VintageImprovements.java:599) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+		at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.13.jar%23202!/:?] {}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.13.jar%23201!/:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+	Mod File: /D:/GT/minecraft/.minecraft/versions/CCB/mods/vintageimprovements-1.20.1-0.2.0.3.jar
+	Failure message: Create: Vintage Improvements (vintageimprovements) has failed to load correctly
+		java.lang.NoClassDefFoundError: com/simibubi/create/content/kinetics/BlockStressDefaults
+	Mod Version: 1.20.1-0.2.0.3
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.BlockStressDefaults
+Stacktrace:
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at com.negodya1.vintageimprovements.VintageBlocks.<clinit>(VintageBlocks.java:55) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+	at com.negodya1.vintageimprovements.VintageImprovements.onCtor(VintageImprovements.java:623) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+	at com.negodya1.vintageimprovements.VintageImprovements.<init>(VintageImprovements.java:599) ~[vintageimprovements-1.20.1-0.2.0.3.jar%23199!/:1.20.1-0.2.0.3] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.13.jar%23202!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.13.jar%23201!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.14, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), BellSoft
+	Memory: 1405425072 bytes (1340 MiB) / 3875536896 bytes (3696 MiB) up to 25769803776 bytes (24576 MiB)
+	CPUs: 18
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) Ultra 5 125H
+	Identifier: Intel64 Family 6 Model 170 Stepping 4
+	Microarchitecture: unknown
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 18
+	Graphics card #0 name: Intel(R) Arc(TM) Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x7d55
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6881
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 7.47
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 7.47
+	Memory slot #1 type: Unknown
+	Memory slot #2 capacity (MB): 4096.00
+	Memory slot #2 clockSpeed (GHz): 7.47
+	Memory slot #2 type: Unknown
+	Memory slot #3 capacity (MB): 4096.00
+	Memory slot #3 clockSpeed (GHz): 7.47
+	Memory slot #3 type: Unknown
+	Memory slot #4 capacity (MB): 4096.00
+	Memory slot #4 clockSpeed (GHz): 7.47
+	Memory slot #4 type: Unknown
+	Memory slot #5 capacity (MB): 4096.00
+	Memory slot #5 clockSpeed (GHz): 7.47
+	Memory slot #5 type: Unknown
+	Memory slot #6 capacity (MB): 4096.00
+	Memory slot #6 clockSpeed (GHz): 7.47
+	Memory slot #6 type: Unknown
+	Memory slot #7 capacity (MB): 4096.00
+	Memory slot #7 clockSpeed (GHz): 7.47
+	Memory slot #7 type: Unknown
+	Virtual memory max (MB): 48278.31
+	Virtual memory used (MB): 26545.80
+	Swap memory total (MB): 16000.00
+	Swap memory used (MB): 1739.92
+	JVM Flags: 6 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn3686m -Xmx24576m
+	Loaded Shaderpack: (off)
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		[犀牛] rhino-forge-2001.2.3-build.10.jar            |Rhino                         |rhino                         |2001.2.3-build.10   |COMMON_SET|Manifest: NOSIGNATURE
+		createstockbridge-1.20-0.1.5.jar                  |Create Stock Bridge           |createstockbridge             |0.1.5               |COMMON_SET|Manifest: NOSIGNATURE
+		[无中生有：神赐] exdeorum-1.48.jar                       |Ex Deorum                     |exdeorum                      |1.48                |COMMON_SET|Manifest: NOSIGNATURE
+		[玉 🔍] Jade-1.20.1-Forge-11.13.2.jar              |Jade                          |jade                          |11.13.2+forge       |COMMON_SET|Manifest: NOSIGNATURE
+		[JEI物品管理器] jei-1.20.1-forge-15.20.0.112.jar       |Just Enough Items             |jei                           |15.20.0.112         |COMMON_SET|Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-1.0.5.jar                   |Flywheel                      |flywheel                      |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Ponder-Forge-1.20.1-1.0.91.jar                    |Ponder                        |ponder                        |1.0.91              |COMMON_SET|Manifest: NOSIGNATURE
+		[机械动力] create-1.20.1-6.0.8.jar                    |Create                        |create                        |6.0.8               |COMMON_SET|Manifest: NOSIGNATURE
+		[Xaero的小地图] Xaeros_Minimap_25.2.10_Forge_1.20.jar |Xaero's Minimap               |xaerominimap                  |25.2.10             |COMMON_SET|Manifest: NOSIGNATURE
+		[Xaero的世界地图] XaerosWorldMap_1.39.12_Forge_1.20.jar|Xaero's World Map             |xaeroworldmap                 |1.39.12             |COMMON_SET|Manifest: NOSIGNATURE
+		MasterfulMachinery-3-1.20.1-0.1.26_TPS_FIX.jar    |Masterful Machinery           |mm                            |3-1.20.1-0.1.25     |COMMON_SET|Manifest: NOSIGNATURE
+		LibX-1.20.1-5.0.12.jar                            |LibX                          |libx                          |1.20.1-5.0.12       |COMMON_SET|Manifest: NOSIGNATURE
+		[空岛建立者] SkyblockBuilder-1.20.1-5.1.28.jar         |Skyblock Builder              |skyblockbuilder               |1.20.1-5.1.28       |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		[机械动力：柴油动力] createdieselgenerators-1.20.1-1.3.8.ja|Create Diesel Generators      |createdieselgenerators        |1.20.1-1.3.8        |COMMON_SET|Manifest: NOSIGNATURE
+		vintageimprovements-1.20.1-0.2.0.3.jar            |Create: Vintage Improvements  |vintageimprovements           |1.20.1-0.2.0.3      |ERROR     |Manifest: NOSIGNATURE
+		guideme-20.1.14.jar                               |GuideME                       |guideme                       |20.1.14             |COMMON_SET|Manifest: NOSIGNATURE
+		[应用能源2] appliedenergistics2-forge-15.4.10.jar     |Applied Energistics 2         |ae2                           |15.4.10             |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |KubeJS                        |kubejs                        |2001.6.5-build.16   |COMMON_SET|Manifest: NOSIGNATURE
+		[铁氧体磁芯] ferritecore-6.0.1-forge.jar               |Ferrite Core                  |ferritecore                   |6.0.1               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		forge-1.20.1-47.4.13-universal.jar                |Forge                         |forge                         |47.4.13             |COMMON_SET|Manifest: NOSIGNATURE
+		[苹果皮] appleskin-forge-mc1.20.1-2.5.1.jar          |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+		vintage-1.20.1-1.4.5.jar                          |Create: Vintage               |vintage                       |1.20.1-1.4.5        |COMMON_SET|Manifest: NOSIGNATURE
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.8.0.jar                         |Oculus                        |oculus                        |1.8.0               |COMMON_SET|Manifest: NOSIGNATURE
+	Flywheel Backend: flywheel:off
+	Crash Report UUID: 77cc8250-454a-48cf-9cf7-2106e29012c3
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.13
